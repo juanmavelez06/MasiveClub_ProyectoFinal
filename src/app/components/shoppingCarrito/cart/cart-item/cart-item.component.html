@@ -1,0 +1,6 @@
+<div class="cart-item">
+  <span> {{cartItem.nombre}}</span> X
+  <span> {{cartItem.cantidad}} </span>
+   <strong>
+    {{ (cartItem.cantidad * cartItem.precio) | currency:'COP' }}</strong> <!--Aun no funciona-->
+</div>
